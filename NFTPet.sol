@@ -16,7 +16,7 @@ contract PokeDIO is ERC721{
     Pokemon[] public pokemons;
     address public gameOwner;
 
-    constructor () ERC721 ("PokeDIO", "PKD"){
+    constructor () ERC721 ("PokePET", "PKD"){
 
         gameOwner = msg.sender;
 
